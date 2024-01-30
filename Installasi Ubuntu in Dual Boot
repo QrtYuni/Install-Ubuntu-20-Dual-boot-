@@ -1,0 +1,29 @@
+## PADA WINDOWS ##
+- Buat/bagi partisi disk melalui /sreach/ "remove disk" 
+- Pada bagian disk kosong klik kanan > shrink volume -> tentukan besar penyimpanan yang akan digunakan untuk ubuntu (saya pakai 50.000 atau 50Gb)
+
+## PASANG FLASHDISK ##
+- Check pada disk manajer apakah flashdisk sudah masuk apa belum 
+- Restart PC 
+- Masuk ke BIOS 
+- Pilih boot dan taruh partisi Flashdisk ubuntu ke urutan pertama , Windows kedua
+- Save dan jalankan
+
+## INSTALLASI ##
+- Pilih coba atau install Ubuntu
+- Pilih bahasa dan tipe keyboard yang digunakan
+- Pilih Installasi normal dengan "other option -> install third-party software"
+- Installation type "something else"
+  1. Klik 2 kali pada partisi "Free space" yang berisi 50000 mb
+  2. Inputkan size 1000 mb -> use as swab
+  3. Ulangi langkah 1 dan inputkan size 1000 mb -> mount point : /boot
+  4. Ulangi langkah 1 dengan inputkan size sebesar free space -> mount point : /
+  
+- Pilih negara
+- Isi data diri dimana : (root@name:/)
+  1. nama = root
+  2. computer's name = name 
+  3. username
+  4. password 
+- installation complete Restart now 
+- Cabut flash disk saat di restart
